@@ -1,0 +1,34 @@
+# Ignore Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# Ignore virtual environments
+.venv/
+env/
+venv/
+
+# Ignore git metadata
+.git/
+.gitignore
+
+# Ignore datasets & outputs (optional)
+data/
+outputs/checkpoints/
+outputs/*.npy
+
+# Ignore notebooks if not needed
+*.ipynb
+notebooks/
+
+# Ignore local configs
+*.log
+*.DS_Store
+
+# Ignore outputs and examples
+examples/
+out/
+results/
+
+# Ignore Parameters.yaml if it contains sensitive info
+parameters/
